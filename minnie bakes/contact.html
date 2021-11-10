@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>MINNIE BAKES </title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Lucida Handwriting;
+}
+
+/* Style the header */
+header {
+  background-color: #ffcce6;
+  padding: 10px;
+  text-align: center;
+  font-size: 50px;
+  color: black;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 150px; 
+  background: ;
+  padding: 30px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  height: 200px;
+}
+
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+.container {
+  position: relative;
+
+}
+/* Style the footer */
+footer {
+  background-color: #ffcce6;
+  padding: 20px;
+  text-align: center;
+  color: black;
+  </style>
+</head>
+<header>
+  <h><u>CONTACT 🧁</h></u>
+  <img src="logo.png" alt="cake" width="180" height="180"> 
+</header>
+<br>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="minnie_bakes.html">🧁HOME PAGE</a></li><br>
+      <li><a href="gallery.html">🧁GALLERY</a></li></br>
+      <li><a href="cakes.html">🧁CAKES</a></li><br>
+	  <li><a href="cupcakes.html">🧁CUPCAKES</a></li></br>
+	  <li><a href="brownies.html">🧁BROWNIES</a></li></br>
+	  <li><a href="chees.html">🧁CHEESCAKES</a></li><br>
+	  <li><a href="social.html">🧁SOCIAL MEDIA </a></li></br>
+	  </br>
+	 
+    </ul>
+  </nav>
+ 
+</section>
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: lucida handwriting;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: ;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Style the footer */
+footer {
+  background-color: #ffcce6;
+  padding: 20px;
+  text-align: center;
+  color: black;
+  }
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2>ORDER NOW !!</h2>
+
+
+<div class="container">
+  <div style="text-align:center">
+    
+  </div>
+  <div class="row">
+    <div class="column">
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">First Name🧁</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name🧁</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+		<label for="contactnumber">contact number🧁</label>
+        <input type="text" id="contactnumber" name="contactnumber" placeholder="conatact number..">
+        <label for="products">products🧁</label>
+        <select id="products" name="products">
+          <option value="cakes">cakes</option>
+          <option value="cupcakes">cupcakes</option>
+          <option value="brownies">brownies</option>
+		  <option value="cheesecakes">cheescakes</option>
+        </select>
+        <label for="subject">Subject🧁</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+
+</body>
+<footer>
+  <p>@2019 - 2021 MINNIE BAKES / COPYRIGHT🧁</p>
+  </br>
+</footer>
+</html>
